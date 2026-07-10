@@ -1,11 +1,16 @@
-RS Annex Ltd Website
+RS ANNEX LTD WEBSITE — UPLOAD INSTRUCTIONS
 
-Files:
+Upload these items to the root of your rsannex.github.io repository:
+
 - index.html
 - style.css
+- support.html
+- privacy.html
+- assets (the entire folder)
 
-Copy your uploaded company logo into this folder and name it:
+Do not upload the ZIP itself.
 
-logo.png
+The Pasture Defender buttons link to:
+https://pasturedefender.com
 
-Then upload all three files to your rsannex.github.io repository.
+After committing the files, allow GitHub Pages a minute or two to rebuild.
