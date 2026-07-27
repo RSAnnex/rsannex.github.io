@@ -1,16 +1,11 @@
-RS ANNEX LTD WEBSITE — UPLOAD INSTRUCTIONS
+RS ANNEX WEBSITE UPDATE
 
-Upload these items to the root of your rsannex.github.io repository:
+Upload index.html and style.css to the root of your existing rsannex.github.io repository.
 
-- index.html
-- style.css
-- support.html
-- privacy.html
-- assets (the entire folder)
+The update adds Adinaroids beside Pasture Defender.
 
-Do not upload the ZIP itself.
+Optional artwork:
+- assets/pasture-defender.jpg
+- assets/adinaroids.jpg
 
-The Pasture Defender buttons link to:
-https://pasturedefender.com
-
-After committing the files, allow GitHub Pages a minute or two to rebuild.
+The supplied page currently uses attractive CSS placeholders, so it works without images.
