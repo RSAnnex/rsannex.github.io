@@ -1,70 +1,229 @@
-```html
-<div class="cards">
-    <div class="card">
-        <div class="num">01</div>
-        <h3>Guard both sides</h3>
-        <p>
-            The CPU and GPU are attacked independently.
-            Watch both halves of the board and decide
-            where the danger is building.
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta
+    name="description"
+    content="Pulse Guard is a fast processor-defence arcade game from RS Annex. Protect the CPU and GPU, destroy attacking bugs and unleash the data-bus pulse."
+  >
+
+  <meta name="theme-color" content="#071a24">
+
+  <title>Pulse Guard | RS Annex</title>
+
+  <link rel="icon" href="assets/pulse-guard.jpg">
+  <link rel="apple-touch-icon" href="assets/pulse-guard.jpg">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">RS <span>ANNEX</span></a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#game">The game</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-copy">
+        <div class="eyebrow">A new arcade game from RS Annex</div>
+
+        <h1>
+          Guard the processors.
+          <span>Keep the system alive.</span>
+        </h1>
+
+        <p class="lead">
+          Pulse Guard is a fast processor-defence game where bugs attack
+          the CPU and GPU from every direction. Rotate your weapons, defend
+          the traces and unleash the data-bus pulse before the system falls.
         </p>
-    </div>
 
-    <div class="card">
-        <div class="num">02</div>
-        <h3>Line up the traces</h3>
+        <div class="actions">
+          <a
+  class="button"
+  href="https://apps.apple.com/gb/app/pulse-guard/id6799772216"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Download Pulse Guard on the App Store"
+>
+  Download on the App Store
+</a>
+
+          <a class="button secondary" href="#screenshots">
+            See the game
+          </a>
+        </div>
+      </div>
+
+      <div class="icon-wrap">
+        <img
+          class="app-icon"
+          src="assets/pulse-guard.jpg"
+          alt="Pulse Guard app icon showing a shocked circuit-board bug"
+        >
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section alt" id="game">
+    <div class="container">
+
+      <div class="section-heading">
+        <div class="eyebrow">Defend the system</div>
+
+        <h2>Two processors. One relentless attack.</h2>
+
         <p>
-            Rotate the processor defences, point each gun
-            down a connection and intercept bugs before
-            they reach the pins.
+          Rotate your defences, intercept the bugs and protect both sides
+          of the system as the attacks become faster and more frantic.
         </p>
-    </div>
+      </div>
 
-    <div class="card">
-        <div class="num">03</div>
-        <h3>Unleash the pulse</h3>
+      <div class="feature-grid">
+
+        <article class="card">
+          <div class="feature-number">1</div>
+
+          <h3>Guard both sides</h3>
+
+          <p>
+            The CPU and GPU are attacked independently. Watch both halves
+            of the board and decide where the danger is building.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="feature-number">2</div>
+
+          <h3>Line up the traces</h3>
+
+          <p>
+            Rotate the processor defences, point each gun down a connection
+            and intercept bugs before they reach the pins.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="feature-number">3</div>
+
+          <h3>Unleash the pulse</h3>
+
+          <p>
+            Send a powerful pulse across the data bus to disrupt the opposite
+            side and buy yourself a few vital seconds.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="section-heading">
+        <div class="eyebrow">Increasing danger</div>
+
+        <h2>It starts controlled. It doesn’t stay that way.</h2>
+
         <p>
-            Send a powerful pulse across the data bus to
-            disrupt the opposite side and buy yourself
-            a few vital seconds.
+          New paths, faster bugs and increasingly frenzied attacks turn a
+          simple defence into a battle to keep the whole system alive.
         </p>
+      </div>
+
     </div>
-</div>
+  </section>
 
-<div class="bus">
-    <div class="bus-line"></div>
+  <section class="section alt" id="screenshots">
+    <div class="container">
 
-    <strong>
-        It starts controlled. It doesn't stay that way.
-    </strong>
+      <div class="section-heading">
+        <div class="eyebrow">Screenshots</div>
 
-    <p class="intro" style="margin-bottom:0">
-        New paths, faster bugs and increasingly frenzied
-        attacks turn a simple defence into a battle to
-        keep the whole system alive.
-    </p>
-</div>
+        <h2>Fast, frantic processor defence.</h2>
+      </div>
 
-<div class="screenshots">
-    <div class="screenshot">
+      <div class="screenshots" aria-label="Pulse Guard screenshots">
+
         <img
-            src="assets/screenshot-1.jpg"
-            alt="Pulse Guard gameplay showing the processor defence"
-        />
+          class="screenshot"
+          src="assets/screenshot-1.jpg"
+          alt="Pulse Guard gameplay showing the processor defence"
+          loading="lazy"
+        >
+
+        <img
+          class="screenshot"
+          src="assets/screenshot-2.jpg"
+          alt="Bugs attacking along the Pulse Guard circuit board"
+          loading="lazy"
+        >
+
+        <img
+          class="screenshot"
+          src="assets/screenshot-3.jpg"
+          alt="Pulse Guard data bus and processor defence gameplay"
+          loading="lazy"
+        >
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="cta">
+        <div>
+          <h2>Need help defending the system?</h2>
+
+          <p>
+            Visit the support page for controls, troubleshooting and
+            contact details.
+          </p>
+        </div>
+
+        <a class="button" href="support/">
+          Pulse Guard support
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div>
+      © 2026 RS Annex Ltd. All rights reserved.
     </div>
 
-    <div class="screenshot">
-        <img
-            src="assets/screenshot-2.jpg"
-            alt="Pulse Guard bugs attacking along the circuit board"
-        />
+    <div class="footer-links">
+      <a href="support/">Support</a>
+      <a href="privacy/">Privacy policy</a>
+      <a href="/">RS Annex home</a>
     </div>
 
-    <div class="screenshot">
-        <img
-            src="assets/screenshot-3.jpg"
-            alt="Pulse Guard data bus and processor defence gameplay"
-        />
-    </div>
-</div>
-```
+  </div>
+</footer>
+
+</body>
+</html>
